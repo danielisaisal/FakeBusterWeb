@@ -1,0 +1,93 @@
+body{
+    background-image: url('pexels-johannes-plenio-1103970.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+
+
+.encabezado{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.titulo{
+    color: blue; 
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto; 
+    text-align: center;
+    border: 3px solid blue;
+    padding: 30px;
+}
+
+.texto{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue; 
+}
+
+.noticia{
+    margin-bottom: 40px;
+    height: 30px;
+    width: 500px;
+    font-size: large;
+}
+
+
+.enviar{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+
+.resultado{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    .contenedor {
+        width: 75%;
+    }
+
+    .titulo{
+        font-size: 60px;
+    }
+    
+    .texto {
+        font-size: 15px;
+    }
+
+    .resultado {
+        font-size: 15px;
+    }
+
+    .noticia, .noticia2 {
+        width: 90%;
+        max-width: 300px; /* Ajusta el ancho de los campos de entrada */
+    }
+
+    .enviar {
+        width: 150px;
+        height: 40px;
+    }
+}
